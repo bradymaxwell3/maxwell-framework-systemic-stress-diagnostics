@@ -1,0 +1,57 @@
+# The Maxwell Framework for Systemic Stress Diagnostics
+
+A multi-domain diagnostic architecture for detecting, quantifying, and interpreting systemic stress across energy, fiscal, production, and regime‑stability domains. The framework integrates energy slack, fiscal slack, NPDI, rhizome damping, regime‑shift detection, and multi‑horizon risk envelopes into a unified operational model.
+
+## Architecture Overview
+
+The framework evaluates systemic stress through four interacting layers:
+
+- Structural Inputs — energy slack, fiscal slack, NPDI, production signals, liquidity conditions.
+- Propagation Engine — rhizome damping, cross‑domain coupling, shock absorption coefficients.
+- Regime‑Shift Layer — inflection point detectors, phase‑transition markers, stability thresholds.
+- Output Layer — Live Stress Tape (LST), multi‑horizon envelopes, daily verdict.
+
+Each layer is modular and can be extended or replaced without altering the overall architecture.
+
+## Core Components
+
+### Energy Slack
+Surplus capacity in the energy system relative to demand and volatility.
+
+### Fiscal Slack
+Government maneuvering room across spending, revenue, and debt‑service constraints.
+
+### NPDI
+Net Private Domestic Investment; measures private‑sector capital formation.
+
+### Rhizome Damping
+Propagation‑control mechanism limiting shock transmission across domains.
+
+### Regime‑Shift Detection
+Identifies transitions between stability regimes using multi‑signal convergence.
+
+### Multi‑Horizon Risk Envelopes
+Short-, medium-, and long‑term stress envelopes that contextualize daily readings.
+
+## Operational Outputs
+
+- Live Stress Tape (LST)
+- Daily Verdict
+- Inflection Point Detector (IPD)
+- Historical Trace
+
+## Usage
+
+1. Collect domain inputs.
+2. Run propagation engine.
+3. Apply regime‑shift detectors.
+4. Generate LST and envelopes.
+5. Produce daily verdict.
+
+## Example
+
+See `/examples/sample_run.md` for a complete walk‑through.
+
+## License
+
+MIT License.
